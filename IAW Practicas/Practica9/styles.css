@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+button,
+.btn-azul {
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Botón verde */
+
+.btn-verde {
+    background-color: #8fd19e;
+    color: white;
+}
+
+.btn-verde:hover {
+    background-color: #5cbf73;
+}
+
+/* Botón rojo */
+
+.btn-rojo {
+    background-color: #e88b8b;
+    color: white;
+}
+
+.btn-rojo:hover {
+    background-color: #d95353;
+}
+
+/* Botón azul */
+
+.btn-azul {
+    background-color: #82b6e8;
+    color: white;
+    display: inline-block;
+}
+
+.btn-azul:hover {
+    background-color: #4d91d1;
+}
+
+/* Botón con ícono */
+
+.btn-icono {
+    background-color: #b69de8;
+    color: white;
+}
+
+.btn-icono:hover {
+    background-color: #9270d1;
+}

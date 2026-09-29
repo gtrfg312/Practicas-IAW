@@ -1,0 +1,49 @@
+/* Reset básico para eliminar márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/* Estilo del encabezado fijo */
+header {
+    position: fixed; /* Mantiene el encabezado fijo */
+    top: 0; /* Lo coloca en la parte superior */
+    width: 100%; /* Ocupa todo el ancho */
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+
+    /* Agrega una sombra al encabezado */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    /* Hace que aparezca sobre los demás elementos */
+    z-index: 1000;
+}
+/* Contenedor de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Lista del menú */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+/* Enlaces del menú */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Contenido principal */
+main {
+    margin-top: 80px;
+    padding: 20px;
+}

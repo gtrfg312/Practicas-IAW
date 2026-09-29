@@ -1,0 +1,67 @@
+/* ================================
+   Estilos generales del cuerpo
+   ================================ */
+
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+/* ================================
+   Estilos para la tarjeta
+   ================================ */
+
+.tarjeta {
+    background-color: #ffffff;
+
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+
+    padding: 20px;
+    width: 300px;
+}
+
+/* ================================
+   Estilos para la imagen de perfil
+   ================================ */
+
+.tarjeta img {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    margin-bottom: 15px;
+}
+
+/* ================================
+   Estilos para el nombre
+   ================================ */
+
+.tarjeta h2 {
+    margin: 10px 0;
+
+    color: #333333;
+    font-size: 22px;
+}
+
+/* ================================
+   Estilos para la descripción
+   ================================ */
+
+.tarjeta p {
+    font-size: 16px;
+
+    color: #555555;
+    line-height: 1.4;
+}

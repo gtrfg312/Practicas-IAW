@@ -1,0 +1,49 @@
+/* Estilo base del documento */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contenedor principal */
+main {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Encabezados de la tabla */
+thead th {
+    background-color: #e0ecf4;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Celdas del cuerpo */
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Color alterno para las filas pares */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

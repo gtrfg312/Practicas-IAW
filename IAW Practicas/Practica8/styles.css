@@ -1,0 +1,41 @@
+/* Estilos para diseño con columnas usando Flexbox */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de columnas */
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Estilo para cada columna */
+
+.columna {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* Ajuste para pantallas pequeñas */
+
+@media screen and (max-width: 768px) {
+    .columna {
+        width: 100%;
+    }
+}
